@@ -1,0 +1,10 @@
+
+State Machine - |top|cont:C0|ps
+Name ps.DEL ps.BRO ps.SSO ps.NSO ps.CSO ps.LOAD ps.000 
+ps.000 0 0 0 0 0 0 0 
+ps.LOAD 0 0 0 0 0 1 1 
+ps.CSO 0 0 0 0 1 0 1 
+ps.NSO 0 0 0 1 0 0 1 
+ps.SSO 0 0 1 0 0 0 1 
+ps.BRO 0 1 0 0 0 0 1 
+ps.DEL 1 0 0 0 0 0 1 
